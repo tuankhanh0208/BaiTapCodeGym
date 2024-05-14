@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+     .internal {
+        background-color:  yellow;
+        
+        
+        
+    }
+    body{
+        color: blue;
+        line-height: 35px;
+        text-align: center;
+      
+    }
+    h2{
+       background-color: aqua;
+       display: inline-block;
+       padding: 10px;
+    }
+     
+</style>
+<body>
+        <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+
+    <form class="internal">
+
+        <label>Họ và tên </label>
+        <input type="text" name="name"><br>
+
+        <label >Ngày sinh </label>
+        <input type="text" name="birthday"><br>
+
+        <label >Giới tính</label>
+        <input type="radio" name="gender" value="Nam"> 
+        <label >Nam</label>
+        <input type="radio" name="gender" value="Nữ"> 
+        <label >Nữ</label> <br>
+
+        <label >Địa chỉ</label>
+        <textarea name="address" id="" rows="2" cols="30"></textarea><br>
+
+        <label >Lớp</label>
+        <select name="Class" id="Class" style="width: 100px;" >
+        <option value="">--Chọn lớp--</option>
+        <option value="">Lớp 2</option>
+        <option value="">Lớp 3</option>
+        </select><br>
+
+        <label >Email</label>
+        <input type="text" name="email" id="email"><br>
+
+        <label >Điện thoại</label>
+        <input type="text" name="phone" id="phone"><br>
+
+        <input type="button" name="sign_in" value="Đăng kí">
+        <input type="reset" name="reset" value="Nhập lại">
+    </form>
+</body>
+</html>
